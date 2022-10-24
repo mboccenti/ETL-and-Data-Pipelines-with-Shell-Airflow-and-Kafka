@@ -47,7 +47,7 @@ extract_data_from_tsv= BashOperator(
 # Task 1.6 - Create a task to extract data from fixed width file
 extract_data_from_fixed_width = BashOperator(
     task_id = 'extract_data_from_fixed_width',
-    bash_command = 'awk 'NF{print $(NF-1),$NF}'  OFS="\t"  payment-data.txt > fixed_width_data.csv',
+    bash_command = 'awk "NF{print $(NF-1),$NF}"  OFS="\t"  payment-data.txt > fixed_width_data.csv',
     dag = dag,
 )
 
@@ -61,7 +61,7 @@ consolidate_data = BashOperator(
 #Task 1.8 -Transform and load the data
 transform_data = BashOperator(
     task_id = 'transform_data',
-    bash_command = 'awk '$5 = toupper($5)' < extracted_data.csv > transformed_data.csv',
+    bash_command = 'awk "$5 = toupper($5)" < extracted_data.csv > transformed_data.csv',
     dag = dag,
 )
 
