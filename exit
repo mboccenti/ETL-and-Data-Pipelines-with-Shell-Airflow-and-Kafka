@@ -1,0 +1,60 @@
+[33mcommit 9a45f375309a1f71a6d0f2954a8759c8bd2b6cdf[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 72d3428 5d036aa
+Author: Marco Boccenti <marco.boccenti@gmail.com>
+Date:   Mon Oct 24 15:46:58 2022 +0200
+
+    Merge branch 'main' of https://github.com/mboccenti/ETL-and-Data-Pipelines-with-Shell-Airflow-and-Kafka
+
+[33mcommit 5d036aa451f1d7a3e02d4151b723731740bf7333[m
+Author: Marco Boccenti <marco.boccenti@gmail.com>
+Date:   Mon Oct 24 15:45:43 2022 +0200
+
+    Update README.md
+
+[33mcommit 72d34288091d22ceec2e658446ca8ae158db601e[m
+Author: Marco Boccenti <marco.boccenti@gmail.com>
+Date:   Mon Oct 24 15:45:04 2022 +0200
+
+    Added tasks screenshot
+
+[33mcommit 7ab94af2fc9cd769ed322df3f89bd8d189d98d3b[m
+Author: Marco Boccenti <marco.boccenti@gmail.com>
+Date:   Mon Oct 24 14:46:46 2022 +0200
+
+    Added Task 1.1-1.10
+
+[33mcommit a7b1f2bd41c134e2793e346ad9e4109cca71d864[m
+Author: Marco Boccenti <marco.boccenti@gmail.com>
+Date:   Mon Oct 24 14:44:51 2022 +0200
+
+    Update ETL_toll_data.py
+
+[33mcommit eeb36b14dfd99779dd2ddfa4355cfb38c9efb3eb[m
+Author: Marco Boccenti <marco.boccenti@gmail.com>
+Date:   Mon Oct 24 14:12:23 2022 +0200
+
+    Create ETL_toll_data.py
+
+[33mcommit 55a25c4c29b30c58280ea8fcc47006d77b837af2[m
+Author: Marco Boccenti <marco.boccenti@gmail.com>
+Date:   Mon Oct 24 14:11:43 2022 +0200
+
+    Delete ETL_toll_data.py
+
+[33mcommit e84867b24273dd188833421869eea4dc216031a6[m
+Author: Marco Boccenti <marco.boccenti@gmail.com>
+Date:   Mon Oct 24 14:11:23 2022 +0200
+
+    Update ETL_toll_data.py
+
+[33mcommit 54c0397633ccfbb6cd91e54027eaf5350ddef40f[m
+Author: Marco Boccenti <marco.boccenti@gmail.com>
+Date:   Mon Oct 24 14:09:43 2022 +0200
+
+    Create ETL_toll_data.py
+
+[33mcommit 89b9ce8218f856aa3538fe02c9ca3c1a17ffdb99[m
+Author: Marco Boccenti <marco.boccenti@gmail.com>
+Date:   Mon Oct 24 14:08:33 2022 +0200
+
+    Initial commit
